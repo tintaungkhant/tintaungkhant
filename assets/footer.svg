@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-labelledby="title">
+  <title id="title">I like my systems reliable and my abstractions justified.</title>
+  <style>
+    .line-stop { stop-color: #0969da; }
+    .text { fill: #59636e; font: 400 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .accent { fill: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      .line-stop { stop-color: #4493f8; }
+      .text { fill: #9198a1; }
+      .accent { fill: #4493f8; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop class="line-stop" offset="0" stop-opacity="0"/>
+      <stop class="line-stop" offset="0.5" stop-opacity="0.8"/>
+      <stop class="line-stop" offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="200" y="16" width="800" height="1.5" fill="url(#rule)"/>
+  <text class="text" x="600" y="48" text-anchor="middle"><tspan class="accent">// </tspan>I like my systems reliable and my abstractions justified.</text>
+</svg>

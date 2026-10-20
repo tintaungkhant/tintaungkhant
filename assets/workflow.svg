@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="196" viewBox="0 0 1200 196" role="img" aria-labelledby="title">
+  <title id="title">Workflow: spec, sequential tickets, one branch and PR per ticket, AI-assisted TDD, evals and cost review for model changes, human review before every merge</title>
+  <style>
+    .box { fill: #f6f8fa; stroke: #d0d7de; }
+    .box-key { fill: #ddf4ff; stroke: #0969da; }
+    .num { fill: #0969da; font: 600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
+    .title { fill: #1f2328; font: 600 17px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .sub { fill: #59636e; font: 400 12.5px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .chev { stroke: #8c959f; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .track { stroke: #d0d7de; stroke-width: 2; }
+    .run { fill: #0969da; }
+    .caption { fill: #59636e; font: 400 12.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    @media (prefers-color-scheme: dark) {
+      .box { fill: #161b22; stroke: #30363d; }
+      .box-key { fill: #0c2d6b; stroke: #4493f8; }
+      .num, .run { fill: #4493f8; }
+      .title { fill: #e6edf3; }
+      .sub, .caption { fill: #9198a1; }
+      .chev { stroke: #6e7681; }
+      .track { stroke: #30363d; }
+    }
+  </style>
+
+  <rect class="box" x="30" y="30" width="170" height="104" rx="12"/>
+  <text class="num" x="48" y="58">01</text>
+  <text class="title" x="48" y="90">Spec</text>
+  <text class="sub" x="48" y="114">business first</text>
+
+  <rect class="box" x="224" y="30" width="170" height="104" rx="12"/>
+  <text class="num" x="242" y="58">02</text>
+  <text class="title" x="242" y="90">Tickets</text>
+  <text class="sub" x="242" y="114">small, sequential</text>
+
+  <rect class="box" x="418" y="30" width="170" height="104" rx="12"/>
+  <text class="num" x="436" y="58">03</text>
+  <text class="title" x="436" y="90">Branch + PR</text>
+  <text class="sub" x="436" y="114">one per ticket</text>
+
+  <rect class="box" x="612" y="30" width="170" height="104" rx="12"/>
+  <text class="num" x="630" y="58">04</text>
+  <text class="title" x="630" y="90">Test-first</text>
+  <text class="sub" x="630" y="114">AI-assisted TDD</text>
+
+  <rect class="box" x="806" y="30" width="170" height="104" rx="12"/>
+  <text class="num" x="824" y="58">05</text>
+  <text class="title" x="824" y="90">Evals + cost</text>
+  <text class="sub" x="824" y="114">for model changes</text>
+
+  <rect class="box-key" x="1000" y="30" width="170" height="104" rx="12" stroke-width="1.5"/>
+  <text class="num" x="1018" y="58">06</text>
+  <text class="title" x="1018" y="90">Human review</text>
+  <text class="sub" x="1018" y="114">I merge every PR</text>
+
+  <path class="chev" d="M209 76 L215 82 L209 88"/>
+  <path class="chev" d="M403 76 L409 82 L403 88"/>
+  <path class="chev" d="M597 76 L603 82 L597 88"/>
+  <path class="chev" d="M791 76 L797 82 L791 88"/>
+  <path class="chev" d="M985 76 L991 82 L985 88"/>
+
+  <line class="track" x1="30" y1="156" x2="1170" y2="156"/>
+  <rect class="run" x="30" y="155" width="170" height="3" rx="1.5">
+    <animate attributeName="x" values="30;224;418;612;806;1000;1000" keyTimes="0;0.16;0.32;0.48;0.64;0.8;1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0 0 1 1"/>
+  </rect>
+
+  <text class="caption" x="600" y="184" text-anchor="middle">Claude Code speeds up the loop. A human decides what gets merged.</text>
+</svg>

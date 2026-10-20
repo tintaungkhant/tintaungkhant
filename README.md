@@ -1,53 +1,138 @@
 <img src="assets/header.svg" alt="Tint Aung Khant: Senior Backend Engineer and AI-First Software Engineer" width="100%">
 
-I design backend systems, build AI-powered products, and turn business problems into software that ships. AI helps me move faster; engineering judgment decides what stays.
+<p align="center">
+  <img src="https://img.shields.io/badge/experience-8%2B%20years-1f6feb?style=flat-square&labelColor=0d1117" alt="Experience: 8+ years">
+  <img src="https://img.shields.io/badge/founder-Better%20Solutions-1f6feb?style=flat-square&labelColor=0d1117" alt="Founder: Better Solutions">
+  <img src="https://img.shields.io/badge/workflow-Claude%20Code-1f6feb?style=flat-square&labelColor=0d1117&logo=claude&logoColor=white" alt="Workflow: Claude Code">
+  <img src="https://img.shields.io/badge/open%20to-work%20%C2%B7%20consulting%20%C2%B7%20partnerships-1f6feb?style=flat-square&labelColor=0d1117" alt="Open to work, consulting and partnerships">
+</p>
 
-8+ years writing software. Founder of Better Solutions.
+<p align="center">
+  I design backend systems, build AI-powered products, and turn business problems into software that ships.<br>
+  AI helps me move faster. Engineering judgment decides what stays.
+</p>
 
-> **No unnecessary code. No unnecessary complexity. Just systems that work.**
+<h3 align="center">No unnecessary code. No unnecessary complexity. Just systems that work.</h3>
+
+<br>
 
 ## How I work
 
-- **Business first.** I ask questions and agree on the solution with stakeholders before I write code.
-- **Simplicity over abstraction.** YAGNI, until real evidence says otherwise.
-- **Code enforces invariants; LLMs interpret intent.** Business rules never live in a prompt.
-- **Measure, then decide.** If an approach fails real use cases, I replace it.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <code>01</code> &nbsp;<b>Business first</b><br>
+      <sub>I ask questions and agree on the solution with stakeholders before I write code.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <code>02</code> &nbsp;<b>Simplicity over abstraction</b><br>
+      <sub>YAGNI, until real evidence says otherwise. No layers just to look senior.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <code>03</code> &nbsp;<b>Code enforces invariants</b><br>
+      <sub>LLMs interpret intent. Business rules never live in a prompt.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <code>04</code> &nbsp;<b>Measure, then decide</b><br>
+      <sub>If an approach fails real use cases, I replace it.</sub>
+    </td>
+  </tr>
+</table>
 
 ## AI-first, human-reviewed
 
-Claude Code is part of my daily workflow. Specs become sequential tickets with one branch and PR each. Work runs test-first, failures get replay scripts, and any model-visible change needs eval results and a cost review. I review and merge every PR myself.
+<img src="assets/workflow.svg" alt="Workflow: spec, sequential tickets, one branch and PR per ticket, AI-assisted TDD, evals and cost review for model changes, human review before every merge" width="100%">
 
-One example: I replayed failed chats against a multi-stage router/specialist/composer pipeline and a single tool-calling agent. The single agent did better, so I dropped the pipeline.
+> [!TIP]
+> **One example:** I replayed failed chats against a multi-stage router/specialist/composer pipeline and a single tool-calling agent. The single agent did better, so I dropped the pipeline.
 
 ## Stack
 
-**Core** &nbsp; PHP · Laravel · TypeScript · Node.js · PostgreSQL · MySQL · Redis · LLM agents & evals<br>
-**Also** &nbsp; Go · Python · Fastify · NestJS · Next.js · Nuxt.js · Docker · AWS
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=php,laravel,ts,nodejs,postgres,mysql,redis&theme=dark">
+  <img src="https://skillicons.dev/icons?i=php,laravel,ts,nodejs,postgres,mysql,redis&theme=light" alt="Core stack: PHP, Laravel, TypeScript, Node.js, PostgreSQL, MySQL, Redis" height="48">
+</picture>
+
+<sub><b>CORE</b> &nbsp;·&nbsp; plus LLM agents, tool calling and evals</sub>
+
+<img src="https://img.shields.io/badge/Go-0d1117?style=flat-square&logo=go&logoColor=00ADD8" alt="Go">
+<img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
+<img src="https://img.shields.io/badge/Fastify-0d1117?style=flat-square&logo=fastify&logoColor=white" alt="Fastify">
+<img src="https://img.shields.io/badge/NestJS-0d1117?style=flat-square&logo=nestjs&logoColor=E0234E" alt="NestJS">
+<img src="https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/Nuxt-0d1117?style=flat-square&logo=nuxt&logoColor=00DC82" alt="Nuxt">
+<img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
+<img src="https://img.shields.io/badge/AWS-0d1117?style=flat-square" alt="AWS">
+
+<sub><b>ALSO</b> &nbsp;·&nbsp; used in production work, not all at the same depth</sub>
 
 ## Selected work
 
-**[Laravel HTTP Beacon](https://github.com/tintaungkhant/laravel-http-beacon)** &nbsp;`public` `Laravel`<br>
-HTTP observability for Laravel. I built it after spending too long digging through Telescope for one specific failed request. It logs incoming and outgoing traffic with related queries, model changes and jobs, and you can filter by route, method, status and date. Storage is indexed, with retention pruning and row caps. Used in a few company projects.
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/tintaungkhant/laravel-http-beacon"><img src="assets/card-beacon.svg" alt="laravel-http-beacon: public. Searchable HTTP observability for Laravel." width="100%"></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/tintaungkhant/tasky"><img src="assets/card-tasky.svg" alt="tasky: public. Git worktrees organized by ticket, across repositories." width="100%"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="assets/card-copilot.svg" alt="Zay Thal Gyi Copilot: private, in development. A tool-calling commerce assistant with code-enforced safeguards." width="100%">
+    </td>
+    <td width="50%">
+      <img src="assets/card-pos.svg" alt="Zay Thal Gyi POS: private, prelaunch. A Myanmar-language-first retail POS." width="100%">
+    </td>
+  </tr>
+</table>
 
-**[tasky](https://github.com/tintaungkhant/tasky)** &nbsp;`public` `Go`<br>
-Git worktrees organized by ticket, across repositories. It creates task-scoped folders, applies branch-naming templates, generates VS Code multi-root workspaces and cleans up afterwards. Starting a ticket shouldn't come with bookkeeping.
+<sub>The public repos are linked. The two Zay Thal Gyi projects are private and haven't launched yet.</sub>
 
-**Zay Thal Gyi Copilot** &nbsp;`private` `in development`<br>
-A tool-calling commerce assistant. The model interprets what customers ask for. Deterministic code validates details, calculations, confirmations and state transitions. State lives outside the agent service (Next.js CMS, Fastify, Trigger.dev), and automated multi-turn evaluations guide design choices. It has no live customers yet.
+## Activity
 
-**Zay Thal Gyi POS** &nbsp;`private` `prelaunch`<br>
-A Myanmar-language-first retail POS. It covers inventory, purchase orders and multi-store operations, plus split tender with MMK and local payment methods. Cash drawer shifts use a blind close, and stock and money changes go into append-only audit records. Reports, permissions and multitenancy come next.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+  <img src="profile-3d-contrib/profile-green-animate.svg" alt="3D contribution calendar" width="100%">
+</picture>
+
+<table>
+  <tr>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/2-most-commit-language.svg">
+        <img src="profile-summary-card-output/github/2-most-commit-language.svg" alt="Most-committed languages" width="100%">
+      </picture>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/1-repos-per-language.svg">
+        <img src="profile-summary-card-output/github/1-repos-per-language.svg" alt="Repositories per language" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+<sub>Generated daily by GitHub Actions and stored in this repo. Private and company work may not show up here.</sub>
 
 ## Along the way
 
 At 19, about a year into programming, I inherited a Japanese influencer platform when its senior developer left and the promised replacement never arrived. I rebuilt the backend, database, APIs and web app (the mobile apps were handled by others). I learned Vue 2 on the job and got Stripe and Japanese GMO payments working despite the language barrier.
 
-Since then I've worked on crypto payments, car auctions, fleet tracking and school meal systems. I've also owned company products end to end, from engineering and design to customer support.
+Since then I've owned company products end to end, from engineering and design to customer support. The domains have included:
 
-Outside work: games, learning, and mathematics.
+`crypto payments` &nbsp;`car auctions` &nbsp;`fleet tracking` &nbsp;`school meal systems` &nbsp;`CRM & chat integrations` &nbsp;`scheduling & media workflows`
+
+<sub>Outside work: games, learning, and mathematics.</sub>
 
 ## Let's talk
 
-I'm open to employment, consulting and startup partnerships. GitHub is the best place to find me.
+I'm open to employment, consulting and startup partnerships.
 
-<sub>I like my systems reliable and my abstractions justified.</sub>
+<a href="https://github.com/tintaungkhant"><img src="https://img.shields.io/badge/find%20me%20on-GitHub-1f6feb?style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="Find me on GitHub"></a>
+
+<br><br>
+
+<img src="assets/footer.svg" alt="I like my systems reliable and my abstractions justified." width="100%">
