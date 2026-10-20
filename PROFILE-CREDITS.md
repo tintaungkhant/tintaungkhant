@@ -6,7 +6,7 @@ This profile combines established community tools with descriptions drawn from m
 | --- | --- | --- |
 | Banner | [Capsule Render](https://github.com/kyechan99/capsule-render) | Generated blue wave banner, saved locally. |
 | Technology icons | [Skill Icons](https://github.com/tandpfun/skill-icons) | Generated light and dark icon strips, saved locally. |
-| Contribution animation | [Platane/snk](https://github.com/Platane/snk) | Compact blue contribution snake in light and dark variants, refreshed daily. |
+| Contribution animation | [GitHub Gravity](https://github.com/flycran/github-gravity) | Real active contribution days fall and bounce around my name. Reuses its physics renderer with blue palettes and a repeating animation. |
 | Layout inspiration | [DenverCoder1](https://github.com/DenverCoder1/DenverCoder1), [Adam Alston](https://github.com/adamalston/adamalston) | Project-first organization, centered introduction, and theme-aware pictures. No personal copy or artwork taken. |
 | Discovery | [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme), [GitHub topic](https://github.com/topics/github-profile-readme) | Community examples and reusable tools. |
 
@@ -17,12 +17,17 @@ Generated SVGs are committed so visitors do not need third-party rendering servi
 - [Capsule Render license](assets/reused/capsule-render.LICENSE)
 - [Skill Icons license](assets/reused/skill-icons.LICENSE)
 - [Summary Cards license](assets/reused/summary-cards.LICENSE)
+- [GitHub Gravity license](assets/reused/github-gravity.LICENSE)
 
 Technology names and logos belong to their respective owners.
 
 ## Refreshing the profile
 
-The existing `.github/workflows/profile-widgets.yml` runs daily and supports manual dispatch. The `Platane/snk/svg-only@v3` step refreshes `assets/contributions/snake-light.svg` and `assets/contributions/snake-dark.svg` from the repository owner's contribution calendar. GitHub Actions needs permission to write repository contents. Both animations are committed, so the profile works before the first scheduled run. The snake uses the built-in GitHub Actions token; no additional secret is required. The earlier summary-card and 3D generators remain in the workflow, but their output is no longer displayed in the README.
+The existing `.github/workflows/profile-widgets.yml` runs daily and supports manual dispatch. `flycran/github-gravity@v1` reads the public contribution calendar through its upstream `gh-calendar.rschristian.dev` provider and simulates the falling dots. Each dot represents an active day, and its color represents the contribution intensity; this is an artistic view, not a chronological chart after the dots fall.
+
+`scripts/finalize-gravity.mjs` keeps the upstream trajectories and data, adds continuous looping, and writes local light and dark SVG variants. Reduced-motion preferences show a still frame. Committed SVGs load before the first scheduled run, and no extra secret is required. The workflow only generates the contribution animation displayed in the README.
+
+I found Gravity in the curated list's Tools section. Other options reviewed included [Git Bonsai](https://github.com/egorthinks/git-bonsai), which grows a pixel tree from account history, and the list's interactive game profiles. Gravity keeps daily contribution data visible while adding substantial motion directly inside a README image.
 
 Static asset generation URLs:
 

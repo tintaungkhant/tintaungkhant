@@ -94,19 +94,19 @@ That shaped how I work today: take responsibility, ask questions, and keep learn
 
 <p align="center"><sub>Also working with Fastify, Python, Next.js, Nuxt.js, and NestJS.<br/>Tools change. Understanding the problem stays.</sub></p>
 
-## A year of building
+## Contributions in motion
 
 <p align="center">
 <a href="https://github.com/tintaungkhant?tab=overview">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/snake-light.svg" />
-  <img src="assets/contributions/snake-light.svg" width="760" alt="Animated snake tracing tintaungkhant's GitHub contribution calendar over the past year" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/gravity-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/gravity-light.svg" />
+  <img src="assets/contributions/gravity-light.svg" width="680" alt="Real contribution days falling and bouncing around Tint Aung Khant's name in a looping physics animation" />
 </picture>
 </a>
 </p>
 
-<p align="center"><sub>The past year, one square at a time. Click to explore my GitHub activity.</sub></p>
+<p align="center"><sub>One dot per active day. The past year's public contribution calendar, set in motion.<br/>Refreshed daily · <a href="https://github.com/tintaungkhant?tab=overview">Explore the activity</a></sub></p>
 
 ---
 
