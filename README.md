@@ -15,56 +15,51 @@ I use AI throughout engineering. Architecture, trade-offs, and every merge stay 
 
 ## Selected work
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 01 / [Laravel HTTP Beacon ↗](https://github.com/tintaungkhant/laravel-http-beacon)
 
-### [Laravel HTTP Beacon ↗](https://github.com/tintaungkhant/laravel-http-beacon)
+![Open source](assets/reused/status-public.svg) &nbsp; `PHP` `Laravel` `Observability`
 
-<sub>OPEN SOURCE · PHP / LARAVEL</sub>
+> **Find the request. Understand what happened.**
 
-**Find the request. Understand what happened.**
+Search incoming and outgoing HTTP traffic, then follow the related queries, model changes, and jobs. Built from debugging real production systems.
 
-Searchable incoming and outgoing HTTP traffic, with related queries, model changes, and jobs. Built from debugging real production systems.
+<sub>Request tracing &nbsp; / &nbsp; Searchable traffic &nbsp; / &nbsp; Production debugging</sub>
 
-</td>
-<td width="50%" valign="top">
+---
 
-### [tasky ↗](https://github.com/tintaungkhant/tasky)
+### 02 / [tasky ↗](https://github.com/tintaungkhant/tasky)
 
-<sub>OPEN SOURCE · GO / GIT</sub>
+![Open source](assets/reused/status-public.svg) &nbsp; `Go` `Git` `Developer tooling`
 
-**One ticket. Multiple repos. One workspace.**
+> **One ticket. Multiple repos. One workspace.**
 
-A CLI that groups Git worktrees by task, names branches consistently, generates editor workspaces, and cleans up when you're done.
+Keep a task's Git worktrees together across repositories. Consistent branch names, ready-to-open editor workspaces, and cleanup when the work is done.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<sub>Task workspaces &nbsp; / &nbsp; Branch conventions &nbsp; / &nbsp; Less context switching</sub>
 
-### Zay Thal Gyi Copilot
+---
 
-<sub>PRIVATE · IN DEVELOPMENT · AI AGENTS</sub>
+### 03 / Zay Thal Gyi Copilot
 
-**Business actions, beyond the chat box.**
+![Private](assets/reused/status-private.svg) ![In development](assets/reused/status-development.svg) &nbsp; `TypeScript` `AI agents`
 
-An AI assistant for business workflows, built around tool calling, evaluation, and application-enforced business rules. In playground testing; not customer-live.
+> **Business actions, beyond the chat box.**
 
-</td>
-<td width="50%" valign="top">
+An AI assistant built around business workflows, tool calling, and code-enforced rules. Evaluated against real cases; currently in playground testing, not customer-live.
 
-### Zay Thal Gyi POS
+<sub>Tool calling &nbsp; / &nbsp; Evaluations &nbsp; / &nbsp; Business rules</sub>
 
-<sub>PRIVATE · PRE-RELEASE · RETAIL SYSTEMS</sub>
+---
 
-**Burmese-first software for everyday retail.**
+### 04 / Zay Thal Gyi POS
+
+![Private](assets/reused/status-private.svg) ![Pre-release](assets/reused/status-prerelease.svg) &nbsp; `Retail` `Inventory` `Payments`
+
+> **Burmese-first software for everyday retail.**
 
 Sales, inventory, purchasing, cash shifts, and local payments across stores. Core web app built; release polish and additional capabilities remain.
 
-</td>
-</tr>
-</table>
+<sub>Myanmar language &nbsp; / &nbsp; Multi-store workflows &nbsp; / &nbsp; Local payments</sub>
 
 ## How I engineer
 
@@ -98,15 +93,11 @@ That shaped how I work today: take responsibility, ask questions, and keep learn
 
 <p align="center">
 <a href="https://github.com/tintaungkhant?tab=overview">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/gravity-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/gravity-light.svg" />
-  <img src="assets/contributions/gravity-light.svg" width="680" alt="Real contribution days falling and bouncing around Tint Aung Khant's name in a looping physics animation" />
-</picture>
+  <img src="assets/contributions/space-shooter.gif" width="800" alt="Space Shooter animation generated from tintaungkhant's real GitHub contributions, with contribution days represented as enemies" />
 </a>
 </p>
 
-<p align="center"><sub>One dot per active day. The past year's public contribution calendar, set in motion.<br/>Refreshed daily · <a href="https://github.com/tintaungkhant?tab=overview">Explore the activity</a></sub></p>
+<p align="center"><sub>My contribution calendar, arcade mode. More contributions make tougher enemies.<br/>Refreshed daily · <a href="https://github.com/tintaungkhant?tab=overview">Explore the activity</a></sub></p>
 
 ---
 

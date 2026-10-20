@@ -6,28 +6,29 @@ This profile combines established community tools with descriptions drawn from m
 | --- | --- | --- |
 | Banner | [Capsule Render](https://github.com/kyechan99/capsule-render) | Generated blue wave banner, saved locally. |
 | Technology icons | [Skill Icons](https://github.com/tandpfun/skill-icons) | Generated light and dark icon strips, saved locally. |
-| Contribution animation | [GitHub Gravity](https://github.com/flycran/github-gravity) | Real active contribution days fall and bounce around my name. Reuses its physics renderer with blue palettes and a repeating animation. |
+| Project status badges | [Shields.io](https://shields.io/) | Locally saved open-source, private, in-development, and pre-release badges. |
+| Contribution animation | [GitHub Space Shooter](https://github.com/czl9707/gh-space-shooter) | A looping arcade GIF generated from my real GitHub contribution calendar. Contribution intensity determines enemy strength. |
 | Layout inspiration | [DenverCoder1](https://github.com/DenverCoder1/DenverCoder1), [Adam Alston](https://github.com/adamalston/adamalston) | Project-first organization, centered introduction, and theme-aware pictures. No personal copy or artwork taken. |
 | Discovery | [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme), [GitHub topic](https://github.com/topics/github-profile-readme) | Community examples and reusable tools. |
 
 ## Assets and licenses
 
-Generated SVGs are committed so visitors do not need third-party rendering services to load the profile. Their MIT notices are retained:
+Generated images are committed so visitors do not need third-party rendering services to load the profile. Relevant MIT notices are retained:
 
 - [Capsule Render license](assets/reused/capsule-render.LICENSE)
 - [Skill Icons license](assets/reused/skill-icons.LICENSE)
 - [Summary Cards license](assets/reused/summary-cards.LICENSE)
-- [GitHub Gravity license](assets/reused/github-gravity.LICENSE)
+- [Space Shooter license](assets/reused/space-shooter.LICENSE)
 
 Technology names and logos belong to their respective owners.
 
 ## Refreshing the profile
 
-The existing `.github/workflows/profile-widgets.yml` runs daily and supports manual dispatch. `flycran/github-gravity@v1` reads the public contribution calendar through its upstream `gh-calendar.rschristian.dev` provider and simulates the falling dots. Each dot represents an active day, and its color represents the contribution intensity; this is an artistic view, not a chronological chart after the dots fall.
+`.github/workflows/profile-widgets.yml` runs daily and supports manual dispatch. It uses the upstream Space Shooter action, pinned to commit `b24c9792454d1a2e0139ccf72840424e1f83c3f2`, to fetch the repository owner's contribution calendar and generate `assets/contributions/space-shooter.gif` at 25 fps with the random attack strategy.
 
-`scripts/finalize-gravity.mjs` keeps the upstream trajectories and data, adds continuous looping, and writes local light and dark SVG variants. Reduced-motion preferences show a still frame. Committed SVGs load before the first scheduled run, and no extra secret is required. The workflow only generates the contribution animation displayed in the README.
+The action uses the built-in GitHub Actions token and needs no additional secret. Its own commit behavior is disabled; the workflow's final step commits the generated asset without amending history. The committed GIF works before the first scheduled run. The image depicts actual contribution data as enemies, with an arcade animation rather than a chronological chart after gameplay starts.
 
-I found Gravity in the curated list's Tools section. Other options reviewed included [Git Bonsai](https://github.com/egorthinks/git-bonsai), which grows a pixel tree from account history, and the list's interactive game profiles. Gravity keeps daily contribution data visible while adding substantial motion directly inside a README image.
+For a local preview, install `gh-space-shooter` and run `gh-space-shooter tintaungkhant --output assets/contributions/space-shooter.gif --strategy random --fps 25` with `GH_TOKEN` supplied through the environment. Never commit the token.
 
 Static asset generation URLs:
 

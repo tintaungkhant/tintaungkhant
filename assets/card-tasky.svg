@@ -3,9 +3,9 @@
   <style>
     .card { fill: #ffffff; stroke: #d0d7de; }
     .bar { fill: #0969da; }
-    .name { fill: #1f2328; font: 600 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .desc { fill: #59636e; font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .meta { fill: #59636e; font: 400 12.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .name { fill: #1f2328; font: 600 26px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .desc { fill: #59636e; font: 400 19px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .meta { fill: #59636e; font: 400 13.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .sep { stroke: #d8dee4; }
     .pill-blue { fill: none; stroke: #0969da; }
     .pill-blue-t { fill: #0969da; font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
@@ -22,13 +22,13 @@
   <rect class="card" x="1" y="1" width="598" height="218" rx="14"/>
   <rect class="bar" x="1" y="1" width="598" height="4" rx="2"/>
 
-  <text class="name" x="32" y="56">tasky</text>
+  <text class="name" x="32" y="56">tasky ↗</text>
   <rect class="pill-blue" x="499" y="37" width="69" height="24" rx="12"/>
   <text class="pill-blue-t" x="533.5" y="53" text-anchor="middle">PUBLIC</text>
 
-  <text class="desc" x="32" y="98">Git worktrees organized by ticket, across repositories.</text>
-  <text class="desc" x="32" y="122">Task-scoped folders, branch-naming templates, VS Code</text>
-  <text class="desc" x="32" y="146">multi-root workspaces, cleanup and shell completion.</text>
+  <text class="desc" x="32" y="98">One ticket. Multiple repos. One workspace.</text>
+  <text class="desc" x="32" y="122">Git worktrees, consistent branches and editor workspaces.</text>
+  <text class="desc" x="32" y="146">Keep tasks together. Clean up with one command.</text>
 
   <line class="sep" x1="32" y1="168" x2="568" y2="168"/>
   <circle cx="38" cy="192" r="6" fill="#00ADD8"/>

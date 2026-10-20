@@ -3,9 +3,9 @@
   <style>
     .card { fill: #ffffff; stroke: #d0d7de; }
     .bar { fill: #8c959f; }
-    .name { fill: #1f2328; font: 600 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .desc { fill: #59636e; font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .meta { fill: #59636e; font: 400 12.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .name { fill: #1f2328; font: 600 26px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .desc { fill: #59636e; font: 400 19px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .meta { fill: #59636e; font: 400 13.5px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .sep { stroke: #d8dee4; }
     .pill-gray { fill: none; stroke: #8c959f; }
     .pill-gray-t { fill: #59636e; font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
@@ -29,14 +29,14 @@
   <rect class="pill-gray" x="376" y="37" width="84" height="24" rx="12"/>
   <text class="pill-gray-t" x="418" y="53" text-anchor="middle">PRIVATE</text>
   <rect class="pill-amber" x="468" y="37" width="100" height="24" rx="12"/>
-  <text class="pill-amber-t" x="518" y="53" text-anchor="middle">PRELAUNCH</text>
+  <text class="pill-amber-t" x="518" y="53" text-anchor="middle">PRE-RELEASE</text>
 
-  <text class="desc" x="32" y="98">Myanmar-language-first retail POS. Inventory, purchase orders,</text>
-  <text class="desc" x="32" y="122">multi-store operations, split tender with MMK and local payments,</text>
-  <text class="desc" x="32" y="146">blind-close cash shifts, append-only stock and money audit.</text>
+  <text class="desc" x="32" y="98">Burmese-first software for everyday retail.</text>
+  <text class="desc" x="32" y="122">Sales, inventory, cash shifts and local payments.</text>
+  <text class="desc" x="32" y="146">Core web app built. Release work remains.</text>
 
   <line class="sep" x1="32" y1="168" x2="568" y2="168"/>
   <circle cx="38" cy="192" r="6" fill="#bf8700"/>
-  <text class="meta" x="52" y="196">MMK · multi-store · audit trail</text>
-  <text class="meta" x="568" y="196" text-anchor="end">reports &amp; permissions next</text>
+  <text class="meta" x="52" y="196">Retail · Inventory · Payments</text>
+  <text class="meta" x="568" y="196" text-anchor="end">pre-release</text>
 </svg>
