@@ -1,127 +1,108 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:030c20,45:0353e9,100:2480fb&height=210&section=header&text=Tint%20Aung%20Khant&fontSize=43&fontColor=ffffff&fontAlignY=37&desc=Senior%20Backend%20Engineer%20%7C%20AI-First%20Software%20Engineer&descAlignY=59&descSize=17&animation=fadeIn" alt="Tint Aung Khant — Senior Backend Engineer and AI-First Software Engineer" />
+<img src="assets/reused/banner.svg" width="100%" alt="Tint Aung Khant — Senior Backend Engineer | AI-First Software Engineer" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=1100&color=2480FB&center=true&vCenter=true&width=680&lines=Business+problems+%E2%86%92+practical+systems;Complex+backends.+Less+unnecessary+complexity.;AI-assisted+delivery.+Human-owned+decisions.;Build+what+matters.+Measure+what+works." alt="Animated engineering principles" /></a>
+### Business problems. Reliable backends. Products that ship.
 
-**I turn complicated business problems into software that actually ships.**
+8+ years designing APIs, databases, and backend systems, with end-to-end product ownership.<br/>
+I use AI throughout engineering. Architecture, trade-offs, and every merge stay my responsibility.
 
-8+ years building backend systems, designing APIs, working with databases, and owning products end to end. These days, I combine that experience with AI-first engineering: agents can write code, but architecture, trade-offs, and the final merge are still my responsibility.
-
-`Systems thinking` · `Business first` · `AI engineering` · `Pragmatic architecture`
+**[Explore my work](#selected-work)** &nbsp; / &nbsp; **[How I engineer](#how-i-engineer)** &nbsp; / &nbsp; **[My stack](#tools-of-the-trade)**
 
 </div>
 
 ---
 
-### `> whoami`
-
-```text
-Role        Senior Backend Engineer / AI-First Software Engineer
-Focus       System design · Backend architecture · AI agents · Product engineering
-Approach    Understand the business → design for real risks → ship the simplest useful thing
-Principle   If the abstraction hasn't earned its keep, it doesn't belong in the codebase.
-Outside     Gaming · Learning · Maths
-```
-
-I like building systems from scratch, especially when the requirements are messy, the domain is complex, and the solution needs to make sense to both engineers and the business.
-
-I lean toward monoliths until service boundaries have a real reason to exist. I think ahead about data models and failure modes, but don't build infrastructure for imaginary scale.
-
-> **Less ceremony. Less clever-for-the-sake-of-clever code. More working software.**
-
-### `> ls projects/`
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### [Laravel HTTP Beacon](https://github.com/tintaungkhant/laravel-http-beacon) ↗
+### [Laravel HTTP Beacon ↗](https://github.com/tintaungkhant/laravel-http-beacon)
 
-**Production-focused HTTP observability for Laravel.**
+<sub>OPEN SOURCE · PHP / LARAVEL</sub>
 
-Trace incoming/outgoing requests and related application activity; search the events that matter without digging through a wall of logs. Built to solve a problem I ran into on real company projects.
+**Find the request. Understand what happened.**
 
-`PHP` `Laravel` `Observability` · **Open source**
+Searchable incoming and outgoing HTTP traffic, with related queries, model changes, and jobs. Built from debugging real production systems.
 
 </td>
 <td width="50%" valign="top">
 
-#### [tasky](https://github.com/tintaungkhant/tasky) ↗
+### [tasky ↗](https://github.com/tintaungkhant/tasky)
 
-**Git worktrees, organized by ticket instead of repository.**
+<sub>OPEN SOURCE · GO / GIT</sub>
 
-A Go CLI for multi-repo task workspaces: predictable branches, grouped worktrees, VS Code workspaces, and painless cleanup. Because context switching shouldn't be a second job.
+**One ticket. Multiple repos. One workspace.**
 
-`Go` `Git` `Developer tooling` · **Open source**
+A CLI that groups Git worktrees by task, names branches consistently, generates editor workspaces, and cleans up when you're done.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### Zay Thal Gyi Copilot
+### Zay Thal Gyi Copilot
 
-**An AI assistant built around business actions, not just chat.**
+<sub>PRIVATE · IN DEVELOPMENT · AI AGENTS</sub>
 
-A CMS-backed, stateless agent service with tool calling, externalized case state, evaluation-driven iteration, and code-enforced safeguards. Currently in development and playground testing; **not live with customers yet**.
+**Business actions, beyond the chat box.**
 
-`TypeScript` `Fastify` `Next.js` `AI agents` · **Private / in development**
+An AI assistant for business workflows, built around tool calling, evaluation, and application-enforced business rules. In playground testing; not customer-live.
 
 </td>
 <td width="50%" valign="top">
 
-#### Zay Thal Gyi POS
+### Zay Thal Gyi POS
 
-**A Burmese-first retail POS built for Myanmar businesses.**
+<sub>PRIVATE · PRE-RELEASE · RETAIL SYSTEMS</sub>
 
-Multi-store sales, inventory movements, purchasing, cash drawer shifts, split tenders, and local payment workflows. The core web app is built; polish and additional capabilities remain before release.
+**Burmese-first software for everyday retail.**
 
-`Retail systems` `Inventory` `Payments` · **Private / pre-release**
+Sales, inventory, purchasing, cash shifts, and local payments across stores. Core web app built; release polish and additional capabilities remain.
 
 </td>
 </tr>
 </table>
 
-### `> cat engineering.md`
+## How I engineer
 
-- **AI-first, not AI-blind.** I use coding agents across implementation, testing, review, and experimentation. I own the architecture and review every merge.
-- **Measure before rewriting.** I replaced a multi-stage AI pipeline after real conversation replays showed a simpler tool-calling agent handled those cases better.
-- **Put guarantees in code.** Models interpret intent; application code enforces business rules, arithmetic, and state transitions.
-- **Solve the business problem.** I ask stakeholders a lot of questions before choosing a technical solution.
-- **YAGNI, with judgment.** Plan for real failure modes; don't implement speculative abstractions.
+- **Start with the business.** Clarify the workflow and constraints before choosing the architecture.
+- **Keep complexity on a budget.** Prefer a monolith until service boundaries earn their place.
+- **Make AI prove useful.** Test against real cases, inspect failures, and review the code before merging.
+- **Put guarantees in code.** Models interpret intent; software enforces money, permissions, and state transitions.
 
 <details>
-<summary><b>A little backstory</b></summary>
-<br/>
+<summary><b>The experience that shaped this</b></summary>
 
-At 19, with about a year of programming experience, I inherited a Japanese influencer platform after its senior developer left. The promised replacement never arrived. I rebuilt the backend, database, APIs, and web application, while learning Vue 2 and navigating Stripe and GMO payment integrations. The mobile apps were handled separately.
+At 19, about a year into programming, I inherited a Japanese influencer platform after its senior developer left. I rebuilt its backend, database, APIs, and web application, learning Vue 2 and handling Stripe and GMO payment integrations along the way. Others handled the mobile apps.
 
-That experience taught me something useful early: you don't need to know everything before taking responsibility, but you do need to keep learning until the system works.
+That shaped how I work today: take responsibility, ask questions, and keep learning until the system works.
 
 </details>
 
-### `> cat stack.yml`
+## Tools of the trade
 
-<div align="center">
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/reused/stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/reused/stack-light.svg" />
+  <img src="assets/reused/stack-light.svg" width="520" alt="PHP, Laravel, TypeScript, Node.js, PostgreSQL, MySQL, Redis, Go, Docker, AWS" />
+</picture>
+</p>
 
-<img src="https://skillicons.dev/icons?i=php,laravel,ts,nodejs,postgres,mysql,redis,go,python,docker,aws&perline=11&theme=dark" alt="Core backend and infrastructure stack" />
+<p align="center"><sub>Also working with Fastify, Python, Next.js, Nuxt.js, and NestJS.<br/>Tools change. Understanding the problem stays.</sub></p>
 
-<img src="https://skillicons.dev/icons?i=nextjs,nuxtjs,nestjs&perline=3&theme=dark" alt="Application frameworks" />
+## On GitHub
 
-<sub>Tools are interchangeable. Understanding the problem isn't.</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/0-profile-details.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="profile-summary-card-output/github/0-profile-details.svg" />
+  <img src="profile-summary-card-output/github/0-profile-details.svg" width="100%" alt="Public GitHub contribution summary for tintaungkhant" />
+</picture>
 
-</div>
-
-### `> git log --oneline --graph`
-
-<div align="center">
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=tintaungkhant&bg_color=030c20&color=9eb9e7&line=2480fb&point=ffffff&area=true&area_color=0353e9&hide_border=true&custom_title=Public%20GitHub%20Activity" alt="Public GitHub activity graph" />
-
-<sub>Public GitHub activity is only part of the work. A lot of my product engineering happens in private repositories.</sub>
-
-</div>
+<p align="center"><sub>Public activity is one part of the picture. Much of my product work lives in private repositories.</sub></p>
 
 ---
 
@@ -129,10 +110,10 @@ That experience taught me something useful early: you don't need to know everyth
 
 **Open to senior engineering roles, consulting, and startup partnerships.**
 
-Explore the code: **[Laravel HTTP Beacon](https://github.com/tintaungkhant/laravel-http-beacon)** · **[tasky](https://github.com/tintaungkhant/tasky)**
+[Explore my repositories ↗](https://github.com/tintaungkhant?tab=repositories)
 
-<sub>Good software doesn't need to be complicated. It needs to work.</sub>
+<sub>No unnecessary code. No unnecessary complexity. Just systems that work.</sub>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:030c20,45:0353e9,100:2480fb&height=100&section=footer" alt="" />
+<sub>[Built with great open-source README tools](PROFILE-CREDITS.md)</sub>
 
 </div>
