@@ -6,7 +6,7 @@ This profile combines established community tools with descriptions drawn from m
 | --- | --- | --- |
 | Banner | [Capsule Render](https://github.com/kyechan99/capsule-render) | Generated blue wave banner, saved locally. |
 | Technology icons | [Skill Icons](https://github.com/tandpfun/skill-icons) | Generated light and dark icon strips, saved locally. |
-| Contribution summary | [GitHub Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) | Light and dark profile cards, refreshed by the existing workflow. |
+| Contribution animation | [Platane/snk](https://github.com/Platane/snk) | Compact blue contribution snake in light and dark variants, refreshed daily. |
 | Layout inspiration | [DenverCoder1](https://github.com/DenverCoder1/DenverCoder1), [Adam Alston](https://github.com/adamalston/adamalston) | Project-first organization, centered introduction, and theme-aware pictures. No personal copy or artwork taken. |
 | Discovery | [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme), [GitHub topic](https://github.com/topics/github-profile-readme) | Community examples and reusable tools. |
 
@@ -22,7 +22,7 @@ Technology names and logos belong to their respective owners.
 
 ## Refreshing the profile
 
-The existing `.github/workflows/profile-widgets.yml` runs daily and supports manual dispatch. It refreshes both `profile-summary-card-output/github/0-profile-details.svg` and `profile-summary-card-output/github_dark/0-profile-details.svg`. GitHub Actions needs permission to write repository contents. The committed cards provide an initial snapshot; the workflow refreshes them after publication. The optional `SUMMARY_GITHUB_TOKEN` secret is supported by that workflow; none is needed for the public-only initial cards.
+The existing `.github/workflows/profile-widgets.yml` runs daily and supports manual dispatch. The `Platane/snk/svg-only@v3` step refreshes `assets/contributions/snake-light.svg` and `assets/contributions/snake-dark.svg` from the repository owner's contribution calendar. GitHub Actions needs permission to write repository contents. Both animations are committed, so the profile works before the first scheduled run. The snake uses the built-in GitHub Actions token; no additional secret is required. The earlier summary-card and 3D generators remain in the workflow, but their output is no longer displayed in the README.
 
 Static asset generation URLs:
 

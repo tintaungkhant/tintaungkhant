@@ -94,15 +94,19 @@ That shaped how I work today: take responsibility, ask questions, and keep learn
 
 <p align="center"><sub>Also working with Fastify, Python, Next.js, Nuxt.js, and NestJS.<br/>Tools change. Understanding the problem stays.</sub></p>
 
-## On GitHub
+## A year of building
 
+<p align="center">
+<a href="https://github.com/tintaungkhant?tab=overview">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/0-profile-details.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="profile-summary-card-output/github/0-profile-details.svg" />
-  <img src="profile-summary-card-output/github/0-profile-details.svg" width="100%" alt="Public GitHub contribution summary for tintaungkhant" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/contributions/snake-light.svg" />
+  <img src="assets/contributions/snake-light.svg" width="760" alt="Animated snake tracing tintaungkhant's GitHub contribution calendar over the past year" />
 </picture>
+</a>
+</p>
 
-<p align="center"><sub>Public activity is one part of the picture. Much of my product work lives in private repositories.</sub></p>
+<p align="center"><sub>The past year, one square at a time. Click to explore my GitHub activity.</sub></p>
 
 ---
 
